@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Facebook login credential testing",
+        "description": "",
+        "id": "facebook-functionality-testing;facebook-login-credential-testing;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4520713900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the facebook login page",
+            "match": {
+              "location": "StepDef.user_is_on_the_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 287967000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the \"anand\" and \"anand@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anand\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"anand@123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDef.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76746000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the login button",
+            "match": {
+              "location": "StepDef.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should verify the success message",
+            "match": {
+              "location": "StepDef.user_should_verify_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook functionality testing",
+    "description": "",
+    "id": "facebook-functionality-testing",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
